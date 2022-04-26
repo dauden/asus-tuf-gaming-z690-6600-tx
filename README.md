@@ -13,7 +13,7 @@
 - Intel® Core™ i5-12600K
 - Dual Radeon™ RX 6600 XT OC Edition
 - Fenvi-T919-802.11ac 2.4G-5GHz BCM94360CD
-- Corsair Vengeance RS Pro RGB 32Gb
+- Corsair Vengeance RS Pro RGB 64Gb
 - SSD Samsung 980 Pro PCIe Gen 4.0 x4 NVMe V-NAND M.2 2280 500GB MZ-V8P500BW
 - SSD WD Black SN850 PCIe Gen4 x4 NVMe M.2 1TB WDS100T1X0E
 - Lian Li Galahad AIO 240 GA240A White
@@ -66,6 +66,8 @@
 ![](img/usb.png)
 
 ![](img/usb2.png)
+
+![](img/wifi.png)
 
 
 refer for my work [here](https://www.reddit.com/r/hackintosh/comments/sp1zgv/opencore_alder_lake_12thgen_intel_hackintosh/)
