@@ -117,10 +117,10 @@
 					<key>HS09</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>9</integer>
+						<integer>255</integer>
 						<key>port</key>
 						<data>
-						DAAAAA==
+						CwAAAA==
 						</data>
 					</dict>
 					<key>HS10</key>
@@ -129,16 +129,16 @@
 						<integer>9</integer>
 						<key>port</key>
 						<data>
-						DQAAAA==
+						DAAAAA==
 						</data>
 					</dict>
 					<key>HS11</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>9</integer>
 						<key>port</key>
 						<data>
-						DgAAAA==
+						DQAAAA==
 						</data>
 					</dict>
 					<key>SS01</key>
