@@ -515,7 +515,7 @@
 				<key>Comment</key>
 				<string>V1.0</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -623,27 +623,9 @@
 				<key>Comment</key>
 				<string>V2.1.0</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AirportItlwm</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>USBToolBox.kext</string>
-				<key>Comment</key>
-				<string>V1.1.1</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/USBToolBox</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -673,11 +655,29 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>USBToolBox.kext</string>
+				<key>Comment</key>
+				<string>V1.1.1</string>
+				<key>Enabled</key>
+				<false/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/USBToolBox</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>UTBMap.kext</string>
 				<key>Comment</key>
 				<string>V1.1</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -1181,11 +1181,11 @@
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
-			<true/>
+			<false/>
 			<key>AllowSetDefault</key>
 			<true/>
 			<key>AllowToggleSip</key>
-			<true/>
+			<false/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
@@ -1429,7 +1429,7 @@
 			<key>SystemSerialNumber</key>
 			<string>C02CK0HW046N</string>
 			<key>SystemUUID</key>
-			<string>153B31B9-7249-4E97-B2A2-27209FB0E3AB</string>
+			<string>673F3793-CDA5-448E-9A5F-ACA2F0F30D42</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -1442,7 +1442,7 @@
 			<key>ProcessorType</key>
 			<integer>4105</integer>
 			<key>ROM</key>
-			<data>Jw7Rgbg+</data>
+			<data>977/j1Xt</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -1452,7 +1452,7 @@
 			<key>SystemSerialNumber</key>
 			<string>C02CK0HW046M</string>
 			<key>SystemUUID</key>
-			<string>153B31B9-7249-4E97-B2A2-27209FB0E3AB</string>
+			<string>673F3793-CDA5-448E-9A5F-ACA2F0F30D42</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1505,9 +1505,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02CK0HW046N</string>
+			<string>C02CK0HW0460</string>
 			<key>SystemUUID</key>
-			<string>153B31B9-7249-4E97-B2A2-27209FB0E3AB</string>
+			<string>673F3793-CDA5-448E-9A5F-ACA2F0F30D42</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>

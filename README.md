@@ -3,9 +3,16 @@
 
 ## Changelog
 
+-----
+#### Mac OS 12 (Monterey)
+
 0.0.1 - initial release
 
 0.0.2 - update opencore 0.8.1 release
+
+#### Mac OS 13 (Ventura)
+
+0.0.3 - update opencore 0.8.5 release
 
 
 ## Hardware Spec
