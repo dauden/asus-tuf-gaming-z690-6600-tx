@@ -15,7 +15,7 @@
 0.1.0 - update opencore 0.8.5 release
 
 
-## Hardware Spec
+## Hardware Spec
 - Asus tuf gaming z690-plus wifi d4
 - Intel® Core™ i5-12600K
 - Dual Radeon™ RX 6600 XT OC Edition
