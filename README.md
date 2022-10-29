@@ -12,7 +12,7 @@
 
 #### Mac OS 13 (Ventura)
 
-0.0.3 - update opencore 0.8.5 release
+0.1.0 - update opencore 0.8.5 release
 
 
 ## Hardware Spec
