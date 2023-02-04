@@ -15,6 +15,9 @@
 0.1.0 - update opencore 0.8.5 release
 
 
+0.1.1 - update opencore 0.8.8 with Ventura 13.2.0 release
+
+
 ## Hardware Spec
 - Asus tuf gaming z690-plus wifi d4
 - Intel® Core™ i5-12600K
