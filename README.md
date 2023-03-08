@@ -18,11 +18,14 @@
 0.1.1 - update opencore 0.8.8 with Ventura 13.2.0 release
 
 
+0.2.0 - update opencore 0.9.0 with Ventura 13.2.1 release
+
+
 ## Hardware Spec
 - Asus tuf gaming z690-plus wifi d4
 - Intel® Core™ i5-12600K
 - Dual Radeon™ RX 6600 XT OC Edition
-- Fenvi-T919-802.11ac 2.4G-5GHz BCM94360CD
+- Fenvi-T919-802.11ac 2.4G-5GHz BCM94360CD
 - Corsair Vengeance RS Pro RGB 64Gb
 - SSD Samsung 980 Pro PCIe Gen 4.0 x4 NVMe V-NAND M.2 2280 500GB MZ-V8P500BW
 - SSD WD Black SN850 PCIe Gen4 x4 NVMe M.2 1TB WDS100T1X0E
