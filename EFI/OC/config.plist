@@ -42,17 +42,9 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-EC-USBX.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
-				<string>SSDT-GPRW.aml</string>
+				<string>SSDT-EC-USBX.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -1168,6 +1160,8 @@
 			<false/>
 			<key>DisableIoMapper</key>
 			<false/>
+			<key>DisableIoMapperMapping</key>
+			<false/>
 			<key>DisableLinkeditJettison</key>
 			<true/>
 			<key>DisableRtcChecksum</key>
@@ -1427,28 +1421,20 @@
 			<dict>
 				<key>DefaultBackgroundColor</key>
 				<data>AAAAAA==</data>
-				<key>run-efi-updater</key>
-				<string>No</string>
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
-				<key>revcpu</key>
-				<integer>1</integer>
-				<key>revcpuname</key>
-				<string>10 Core Intel i5</string>
 				<key>rtc-blacklist</key>
 				<data></data>
-				<key>run-efi-updater</key>
-				<string>No</string>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
+				<key>#INFO (prev-lang:kbd)</key>
+				<string>en:252 (ABC), set 656e3a323532</string>
 				<key>ForceDisplayRotationInEFI</key>
 				<integer>0</integer>
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
-				<key>SystemAudioVolumeDB</key>
-				<data>4g==</data>
 				<key>boot-args</key>
 				<string>keepsyms=1 alcid=66 -wegnoigpu agdpmod=pikera</string>
 				<key>csr-active-config</key>
@@ -1480,7 +1466,33 @@
 		<key>WriteFlash</key>
 		<true/>
 		<key>LegacySchema</key>
-		<dict/>
+		<dict>
+			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
+			<array>
+				<string>EFILoginHiDPI</string>
+				<string>EFIBluetoothDelay</string>
+				<string>LocationServicesEnabled</string>
+				<string>SystemAudioVolume</string>
+				<string>SystemAudioVolumeDB</string>
+				<string>SystemAudioVolumeSaved</string>
+				<string>bluetoothActiveControllerInfo</string>
+				<string>bluetoothInternalControllerInfo</string>
+				<string>flagstate</string>
+				<string>fmm-computer-name</string>
+				<string>fmm-mobileme-token-FMM</string>
+				<string>fmm-mobileme-token-FMM-BridgeHasAccount</string>
+				<string>nvda_drv</string>
+				<string>prev-lang:kbd</string>
+			</array>
+			<key>8BE4DF61-93CA-11D2-AA0D-00E098032B8C</key>
+			<array>
+				<string>Boot0080</string>
+				<string>Boot0081</string>
+				<string>Boot0082</string>
+				<string>BootNext</string>
+				<string>BootOrder</string>
+			</array>
+		</dict>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
@@ -1495,9 +1507,9 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>M0000000000000001</string>
+			<string>C020503034N0000AD</string>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>4105</integer>
 			<key>ROM</key>
 			<data>ESIzRFVm</data>
 			<key>SpoofVendor</key>
@@ -1505,11 +1517,68 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>iMac19,1</string>
+			<string>iMac20,2</string>
 			<key>SystemSerialNumber</key>
-			<string>W00000110001</string>
+			<string>C02DTDYT046M</string>
 			<key>SystemUUID</key>
-			<string>00000000-0000-0000-0000-000000000000</string>
+			<string>8E18E912-E637-4B47-B0BB-D63800097270</string>
+		</dict>
+		<key>SMBIOS</key>
+		<dict>
+			<key>BIOSReleaseDate</key>
+			<string>03/04/2023</string>
+			<key>BIOSVendor</key>
+			<string></string>
+			<key>BIOSVersion</key>
+			<string>1968.100.17.0.0</string>
+			<key>BoardAssetTag</key>
+			<string>Base Board Asset Tag</string>
+			<key>BoardLocationInChassis</key>
+			<string>Part Component</string>
+			<key>BoardManufacturer</key>
+			<string></string>
+			<key>BoardProduct</key>
+			<string>Mac-AF89B6D9451A490B</string>
+			<key>BoardSerialNumber</key>
+			<string>C020503034N0000AD</string>
+			<key>BoardType</key>
+			<integer>10</integer>
+			<key>BoardVersion</key>
+			<string>iMac20,2</string>
+			<key>ChassisAssetTag</key>
+			<string>Asset Tag#</string>
+			<key>ChassisManufacturer</key>
+			<string></string>
+			<key>ChassisSerialNumber</key>
+			<string>C02DTDYT046M</string>
+			<key>ChassisType</key>
+			<integer>13</integer>
+			<key>ChassisVersion</key>
+			<string>Mac-AF89B6D9451A490B</string>
+			<key>FirmwareFeatures</key>
+			<data>ZvCz/wgAAAA=</data>
+			<key>FirmwareFeaturesMask</key>
+			<data>/////wgAAAA=</data>
+			<key>PlatformFeature</key>
+			<integer>32</integer>
+			<key>ProcessorType</key>
+			<integer>4105</integer>
+			<key>SmcVersion</key>
+			<data></data>
+			<key>SystemFamily</key>
+			<string>iMac</string>
+			<key>SystemManufacturer</key>
+			<string></string>
+			<key>SystemProductName</key>
+			<string>iMac20,2</string>
+			<key>SystemSKUNumber</key>
+			<string>System SKU#</string>
+			<key>SystemSerialNumber</key>
+			<string>C02DTDYT046M</string>
+			<key>SystemUUID</key>
+			<string>8E18E912-E637-4B47-B0BB-D63800097270</string>
+			<key>SystemVersion</key>
+			<string>1.0</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1663,10 +1732,14 @@
 			<false/>
 			<key>ForceResolution</key>
 			<false/>
+			<key>GopBurstMode</key>
+			<false/>
 			<key>GopPassThrough</key>
 			<string>Disabled</string>
 			<key>IgnoreTextInGraphics</key>
 			<false/>
+			<key>InitialMode</key>
+			<string>Auto</string>
 			<key>ProvideConsoleGop</key>
 			<true/>
 			<key>ReconnectGraphicsOnConnect</key>
@@ -1751,6 +1824,8 @@
 			<true/>
 			<key>ResizeGpuBars</key>
 			<integer>-1</integer>
+			<key>ResizeUsePciRbIo</key>
+			<false/>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 			<key>UnblockFsConnect</key>
