@@ -20,7 +20,7 @@
 
 0.2.0 - update opencore 0.9.0 with Ventura 13.2.1 release
 
-0.2.0 - update opencore 0.9.3 with Ventura 13.4 release
+0.2.1 - update opencore 0.9.3 with Ventura 13.4 release
 
 
 ## Hardware Spec
