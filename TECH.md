@@ -60,4 +60,5 @@ $ sudo cp -rf /Volumes/<Volume name EFI from USD disk>/EFI /Volumes/<Volume name
 Enjoy macOS on non-Apple hardware :)
 
 ## NOTE
-More information for Open Core install you find [here](https://dortania.github.io/OpenCore-Install-Guide/config.plist/)
+- More information for Open Core install you find [here](https://dortania.github.io/OpenCore-Install-Guide/config.plist/)
+- Ref [post](https://www.reddit.com/r/hackintosh/comments/sp1zgv/opencore_alder_lake_12thgen_intel_hackintosh) 

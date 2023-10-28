@@ -85,4 +85,4 @@
 ![](img/wifi.png)
 
 
-refer for my work [here](https://www.reddit.com/r/hackintosh/comments/sp1zgv/opencore_alder_lake_12thgen_intel_hackintosh/)
+refer for my work [here](TECH.md)
