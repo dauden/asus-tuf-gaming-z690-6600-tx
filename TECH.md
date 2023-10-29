@@ -33,7 +33,22 @@
     * Fast Boot - off 
     * XHCI Hand-off - on
   - If you are using my EFI you can refer to my [BIOS config](README.md#bios-config)
-
+  - Or you can restore BIOS and BIOS configs from [my backup](/BIOS)
+  - NOTE
+    - you should not upgrade BIOS at lasted version below (I'm totally stuck in this version for one day of work):
+    ```
+      TUF GAMING Z690-PLUS WIFI D4 BIOS 2802
+      Version 2802
+      11.19 MB
+      2023/10/06
+    ```
+     currently it work well with BIOS version: 
+    ```
+      TUF GAMING Z690-PLUS WIFI D4 BIOS 2403
+      Version 2403
+      11.14 MB
+      2023/06/21
+    ```
 
 - Config/Edit or modify your EFI with OPENCONFIG
    - you can download openconfig from [here](https://mackie100projects.altervista.org/opencore-configurator/)
@@ -57,6 +72,20 @@ $ sudo diskutil mount /dev/disk<Number>
 $ sudo cp -rf /Volumes/<Volume name EFI from USD disk>/EFI /Volumes/<Volume name of Internal EFI Disk>/EFI
 # example sudo cp -rf /Volumes/EFI/EFI /Volumes/EFI 1/EFI
 ```
+- Patcher if used Wifi BCM94360
+After done and reboot Computer we don't see any wifi network in list. then we need Patch wifi
+run [OpenCore-Patcher.app](tools%2FOpenCore-Patcher.app) 
+  - choose Settings >> Security 
+  - selected 
+    - Disable AMFI
+    - ALLOW_UNTRUSTED_KEXTS
+    - ALLOW_UNRESTRICTED_FS
+    - ALLOW_UNAUTHENTICATED_ROOT
+    ![patcher.png](img%2Fpatcher_setting.png)
+  - Back to Home (Return)
+  - run Post-Install Root Patch
+    ![patcher.png](img%2Fpatcher.png)
+  - Wait finish the reboot 
 Enjoy macOS on non-Apple hardware :)
 
 ## NOTE

@@ -14,13 +14,15 @@
 
 0.1.0 - update opencore 0.8.5 release
 
-
 0.1.1 - update opencore 0.8.8 with Ventura 13.2.0 release
-
 
 0.2.0 - update opencore 0.9.0 with Ventura 13.2.1 release
 
 0.2.1 - update opencore 0.9.3 with Ventura 13.4 release
+
+#### Mac OS 14 (Sonoma)
+
+0.3.0 - update opencore 0.9.5 with Sonoma 14.0 release
 
 
 ## Hardware Spec
@@ -49,9 +51,9 @@
  - Memory Remap - on
  
 ## Work
-- restart
-- sleep
-- Wi-Fi Dual card (on Broad && extent card)
+- Restart
+- Sleep
+- Wi-Fi extent card
 - Bluetooth - extent card
 - all usb ports
 - sound card
@@ -64,7 +66,7 @@
 - AirDrop
 - etc....
 ## Not Work 
-- Bluetooth on broad
+- Wi-Fi & Bluetooth on broad (not test yet! but it can work without BCM94360CD)
 - ....
 
 ## Some images
