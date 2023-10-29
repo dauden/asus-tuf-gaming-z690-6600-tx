@@ -64,6 +64,7 @@
 - Unlock with apple watch
 - Universal control 
 - AirDrop
+- Sidecar
 - etc....
 ## Not Work 
 - Wi-Fi & Bluetooth on broad (not test yet! but it can work without BCM94360CD)
@@ -71,6 +72,13 @@
 
 ## Some images
 ![](img/opencore.png)
+
+![](img/sidecar.png)
+
+![](img/sidecar1.png)
+
+![](img/sidecar2.png)
+
 
 ![](img/about.png)
 
